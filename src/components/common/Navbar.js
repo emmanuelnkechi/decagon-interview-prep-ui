@@ -1,39 +1,40 @@
 import styled from "styled-components";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <StyledNav>
       <div>
-        <a href="/">
+        <Link to="/">
           <img src="./images/Talent-logo.svg" alt="company-logo" />
-        </a>
+        </Link>
       </div>
       <ul className="listing">
         <li className="listing-item">
-          <a className="listing-item__links" href="/">
+          <Link className="listing-item__links" to="/">
             About Us
-          </a>
+          </Link>
         </li>
         <li className="listing-item">
-          <a className="listing-item__links" href="/">
+          <Link className="listing-item__links" to="/">
             For Companies
-          </a>
+          </Link>
         </li>
         <li className="listing-item">
-          <a className="listing-item__links" href="/">
+          <a className="listing-item__links" to="/">
             For Talents
           </a>
         </li>
         <li className="listing-item">
-          <a className="listing-item__links" href="/">
+          <Link className="listing-item__links" to="/">
             Job Board
-          </a>
+          </Link>
         </li>
         <li className="listing-item">
-          <a className="listing-item__links" href="/">
+          <Link className="listing-item__links" href="/">
             Blog
-          </a>
+          </Link>
         </li>
       </ul>
 
