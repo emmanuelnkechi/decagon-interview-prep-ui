@@ -29,7 +29,7 @@ const Header = () => {
   );
 };
 
-const StyledHeader = styled.div`
+const StyledHeader = styled.section`
   padding: 0.5rem 2rem 0.5rem 5rem;
   background: linear-gradient(180deg, #E5EFFF 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
   .header {
