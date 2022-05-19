@@ -19,7 +19,7 @@ const StyledButton = styled.button`
   color: ${({ outline, bgColor }) => (outline ? bgColor : "#fff")};
   font-size: 0.8rem;
   font-weight: 600;
-  padding: ${({ size }) => (size === "small" ? "0.7rem 1rem" : "0.8rem 1rem ")};
+  padding: ${({ size }) => (size === "small" ? "0.7rem 1rem" : "1.3rem 2rem ")};
   box-shadow: ${({ outline }) =>
     !outline ? "3px 11px 18px -8px rgba(66,63,63,0.75)" : "none"};
   border-radius: 0.2rem;

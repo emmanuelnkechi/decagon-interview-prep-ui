@@ -60,7 +60,6 @@ const StyledNav = styled.nav`
   grid-template-columns: 1fr 2fr 1fr;
   height: 100%;
   align-items: center;
-  padding: 0.5rem 3rem;
   gap:2rem;
 
   .listing {
@@ -90,7 +89,7 @@ const StyledNav = styled.nav`
     gap: 1rem;
   }
 
-  @media only screen and (min-width: "280px") and (max-width: 767px) {
+  @media only screen and (min-width: 280px) and (max-width: 767px) {
       display: none;
   }
 `;

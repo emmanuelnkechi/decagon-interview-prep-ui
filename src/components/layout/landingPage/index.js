@@ -1,8 +1,8 @@
-import Navbar from "../../common/Navbar";
+import Header from "./header";
 const LandingPageLayout = () => {
     return (
         <>
-        <Navbar/>
+        <Header/>
         </>
     )
 }
