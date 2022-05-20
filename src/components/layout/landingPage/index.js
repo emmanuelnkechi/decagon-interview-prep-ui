@@ -3,6 +3,8 @@ import Pool from "./possibilityPool";
 import Platform from "./platform";
 import Talent from "./trustedTalent";
 import Matched from "./matched";
+import Footer from "./footer";
+
 const LandingPageLayout = () => {
     return (
         <>
@@ -11,6 +13,7 @@ const LandingPageLayout = () => {
         <Platform />
         <Talent />
         <Matched />
+        <Footer />
         </>
     )
 }

@@ -52,7 +52,7 @@ padding: 1rem 5rem;
 .matched-people{
     width: 60%
     margin: 0 auto;
-    margin-bottom: -4rem;
+    margin-bottom: -12rem;
    
     text-align: center;
 }
@@ -74,6 +74,7 @@ padding: 1rem 5rem;
     .matched-people{
         margin-top: 3rem;
       text-align: center;
+      margin-bottom: -3rem;
         img{
             width: 70%;
             height: auto;
@@ -93,6 +94,7 @@ padding: 1rem 5rem;
     .matched-people{
         text-align: center;
         margin-top: 6rem;
+        margin-bottom: -7rem;
         img{
             width: 70%;
             height: auto;
