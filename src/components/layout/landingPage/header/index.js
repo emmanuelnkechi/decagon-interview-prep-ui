@@ -1,10 +1,8 @@
 import styled from "styled-components";
-import Navbar from "../../../common/Navbar";
 import Button from "../../../common/Button";
 const Header = () => {
   return (
     <StyledHeader>
-      <Navbar />
       <div className="header">
         <div className="header-first">
           <h1 className="header-first_welcome">Welcome to your next growth opportunity.</h1>
