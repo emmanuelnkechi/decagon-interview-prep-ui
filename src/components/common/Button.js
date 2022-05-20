@@ -24,5 +24,9 @@ const StyledButton = styled.button`
     !outline ? "3px 11px 18px -8px rgba(66,63,63,0.75)" : "none"};
   border-radius: 0.2rem;
   cursor: pointer;
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    font-size: 0.6rem;
+  }
 `;
 export default Button;

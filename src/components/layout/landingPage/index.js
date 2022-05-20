@@ -4,10 +4,12 @@ import Platform from "./platform";
 import Talent from "./trustedTalent";
 import Matched from "./matched";
 import Footer from "./footer";
+import Navbar from "../../common/Navbar";
 
 const LandingPageLayout = () => {
     return (
         <>
+        <Navbar />
         <Header/>
         <Pool />
         <Platform />
