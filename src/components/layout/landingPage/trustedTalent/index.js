@@ -175,7 +175,7 @@ const StyledSection = styled.section`
         width: 100%;
         height: auto;
         margin-top: 5rem;
-        margin-left: -37rem;
+        margin-left: -20rem;
         z-index: 1;
       }
     }

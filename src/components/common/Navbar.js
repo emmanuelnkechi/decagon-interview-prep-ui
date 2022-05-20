@@ -22,9 +22,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="listing-item">
-          <a className="listing-item__links" to="/">
+          <Link className="listing-item__links" to="/">
             For Talents
-          </a>
+          </Link>
         </li>
         <li className="listing-item">
           <Link className="listing-item__links" to="/">
